@@ -1,0 +1,48 @@
+body{
+    background-color: aqua;
+}
+
+.title {
+    background-color: brown;
+    font-size: 2em;
+    text-align: center;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+}
+
+.encabezado {
+    text-align: center;
+    border: 2px solid black;
+}
+
+.cards {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 1em 1em 1em;
+    border-radius: 10px;
+}
+
+.cards:hover {
+    background-color: rgb(67, 67, 110);
+}
+
+#titulo{
+    background-color: brown;
+    text-align: center;
+}
+
+#cardContainer{
+    background-color: aquamarine;
+    width: 85vw;
+    margin: auto;
+    margin-top: 2em;
+    border: 2px solid red;
+    border-radius: 7px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
